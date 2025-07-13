@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
       {/* text + image row */}
-      <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 flex flex-col xl:flex-row items-center xl:items-stretch">
+      <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 flex flex-col xl:flex-row items-stretch">
         {/* left: text */}
         <div className="flex-1 flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
           {/* title */}
@@ -50,7 +50,7 @@ const Home = () => {
           </motion.div>
         </div>
         {/* right: image */}
-        <div className="flex-1 flex items-center justify-center relative xl:pr-16 xl:pb-12">
+        <div className="flex-1 relative h-full hidden xl:block">
           {/* bg img */}
           <div
             role="img"
@@ -63,7 +63,8 @@ const Home = () => {
           <img
             src="/avatar.png"
             alt="Avatar"
-            className="relative z-10 w-[350px] h-[500px] object-cover rounded-none shadow-none xl:block hidden"
+            className="absolute top-0 right-0 w-[420px] h-[630px] object-cover rounded-none shadow-none"
+            style={{maxWidth: '100%', height: 'auto'}}
           />
         </div>
       </div>
