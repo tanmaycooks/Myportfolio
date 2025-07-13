@@ -32,10 +32,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            I'm someone who believes in turning ideas into reality through thoughtful design and purposeful development. Whether it's solving real-world problems or creating experiences that matter, I enjoy the process of building from the ground up. I'm constantly learning, evolving, and pushing boundaries to bring imagination closer to execution.
           </motion.p>
 
           {/* btn */}

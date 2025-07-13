@@ -26,20 +26,32 @@ export const aboutData = [
     title: "skills",
     info: [
       {
+        title: "Programming Languages",
+        stage: "C++, Python, Kotlin, JavaScript",
+      },
+      {
         title: "Web Development",
-        icons: [
-          FaHtml5,
-          FaCss3,
-          FaJs,
-          FaReact,
-          SiNextdotjs,
-          SiFramer,
-          FaWordpress,
-        ],
+        stage: "HTML5, CSS3, JavaScript, React.js",
+      },
+      {
+        title: "Mobile Development",
+        stage: "Android (Kotlin)",
+      },
+      {
+        title: "Machine Learning",
+        stage: "Python, Pandas, NumPy, scikit-learn, BERT",
+      },
+      {
+        title: "Cloud & DevOps",
+        stage: "AWS (EC2, S3)",
       },
       {
         title: "UI/UX Design",
-        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
+        stage: "Figma (Wireframing, Prototyping)",
+      },
+      {
+        title: "Tools & Platforms",
+        stage: "Android Studio, Git & GitHub, VS Code",
       },
     ],
   },
@@ -47,46 +59,8 @@ export const aboutData = [
     title: "awards",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
-      },
-    ],
-  },
-  {
-    title: "experience",
-    info: [
-      {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
-      },
-      {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
-      },
-    ],
-  },
-  {
-    title: "credentials",
-    info: [
-      {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
-      },
-      {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "Android expo - 3rd place",
+        stage: "2025",
       },
     ],
   },
