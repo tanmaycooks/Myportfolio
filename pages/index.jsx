@@ -32,7 +32,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-"I’m someone who believes in turning ideas into reality through thoughtful design and purposeful development. Whether it’s solving real-world problems or creating experiences that matter, I enjoy the process of building from the ground up. I’m constantly learning, evolving, and pushing boundaries to bring imagination closer to execution."
+      "I’m someone who believes in turning ideas into reality through thoughtful design and purposeful development. Whether it’s solving real-world problems or creating experiences that matter, I enjoy the process of building from the ground up. I’m constantly learning, evolving, and pushing boundaries to bring imagination closer to execution."
           </motion.p>
 
           {/* btn */}
@@ -69,7 +69,7 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-           className="relative h-full min-h-[600px] lg:min-h-[700px] flex items-end justify-center"
+          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
         >
           <Avatar />
         </motion.div>
@@ -79,6 +79,5 @@ const Home = () => {
 };
 
 export default Home;
-
 
 
