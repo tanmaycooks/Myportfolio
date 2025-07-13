@@ -61,11 +61,17 @@ const Home = () => {
         {/* particles */}
         <ParticlesContainer />
 
-        {/* avatar */}
+        {/* avatar image */}
+        <img
+          src="/avatar.png"
+          alt="Avatar"
+          className="absolute bottom-0 right-0 w-[410px] h-[678px] object-cover xl:block hidden"
+        />
       </div>
     </div>
   );
 };
 
 export default Home;
+
 
