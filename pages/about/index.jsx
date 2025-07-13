@@ -31,7 +31,7 @@ export const aboutData = [
       },
       {
         title: "Web Development",
-        stage: "HTML5, CSS3, JavaScript, React.js",
+        stage: "HTML5, CSS3, JavaScript, React.js(Learning)",
       },
       {
         title: "Mobile Development",
@@ -39,7 +39,7 @@ export const aboutData = [
       },
       {
         title: "Machine Learning",
-        stage: "Python, Pandas, NumPy, scikit-learn, BERT",
+        stage: "Python, (Pandas, NumPy, scikit-learn-in Progress), BERT",
       },
       {
         title: "Cloud & DevOps",
@@ -74,7 +74,7 @@ const About = () => {
       <Circles />
 
       {/* avatar img */}
-      <motion.div
+      {/* <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
         animate="show"
@@ -82,7 +82,7 @@ const About = () => {
         className="hidden xl:flex absolute bottom-0 -left-[370px]"
       >
         <Avatar />
-      </motion.div>
+      </motion.div> */}
 
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* text */}
