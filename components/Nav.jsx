@@ -33,8 +33,8 @@ const Nav = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen">
-      <div className="flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-[80px] xl:h-max py-8 bg-white/10 backdrop-blur-sm text-3xl xl:text-xl xl:rounded-full">
+    <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-auto flex justify-center">
+      <div className="flex flex-row items-center gap-x-8 px-8 py-4 bg-white/10 backdrop-blur-sm text-3xl rounded-full">
         {navData.map((link, i) => (
           <Link
             className={`${
@@ -43,24 +43,22 @@ const Nav = () => {
             href={link.path}
             key={i}
           >
-            {/* tolltip */}
+            {/* tooltip */}
             <div
               role="tooltip"
-              className="absolute pr-14 right-0 hidden xl:group-hover:flex"
+              className="absolute left-1/2 -translate-x-1/2 top-full mt-2 hidden group-hover:flex"
             >
               <div className="bg-white relative flex text-primary items-center p-[6px] rounded-[3px]">
                 <div className="text-[12px] leading-none font-semibold capitalize">
                   {link.name}
                 </div>
-
                 {/* triangle */}
                 <div
-                  className="border-solid border-l-white border-l-8 border-y-transparent border-y-[6px] border-r-0 absolute -right-2"
+                  className="border-solid border-t-white border-t-8 border-x-transparent border-x-[6px] border-b-0 absolute top-0 left-1/2 -translate-x-1/2 -mt-2"
                   aria-hidden
                 />
               </div>
             </div>
-
             {/* icon */}
             <div>
               <link.Icon aria-hidden />
@@ -73,3 +71,4 @@ const Nav = () => {
 };
 
 export default Nav;
+
