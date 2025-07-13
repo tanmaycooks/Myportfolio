@@ -18,8 +18,9 @@ const Header = () => {
               priority
             />
           </Link>
-
-          {/* socials */}
+        </div>
+        {/* socials top right */}
+        <div className="fixed top-6 right-10 z-50">
           <Socials />
         </div>
       </div>
