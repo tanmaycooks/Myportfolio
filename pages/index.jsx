@@ -50,7 +50,7 @@ const Home = () => {
           </motion.div>
         </div>
         {/* right: image */}
-        <div className="flex-1 relative h-full hidden xl:block">
+        <div className="flex-1 flex items-center justify-center relative xl:pr-16 xl:pb-12">
           {/* bg img */}
           <div
             role="img"
@@ -63,8 +63,7 @@ const Home = () => {
           <img
             src="/avatar.png"
             alt="Avatar"
-            className="absolute top-0 right-0 w-[420px] h-[630px] object-cover rounded-none shadow-none"
-            style={{maxWidth: '100%', height: 'auto'}}
+            className="relative z-10 w-[350px] h-[500px] object-cover rounded-none shadow-none xl:block hidden"
           />
         </div>
       </div>
@@ -73,5 +72,6 @@ const Home = () => {
 };
 
 export default Home;
+
 
 
